@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chonmau {
+    position: fixed;
+    right: 24px;
+    top: 16px;
+    z-index: 9999;
+}
+
+.chonmau div {
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.mauvang {
+    background: rgb(255, 200, 20)!important;
+}
+
+.mauxanh {
+    background: green!important;
+}
+
+.maucam {
+    background: #bd5d38!important;
+}
+
+nav {
+    width: 15%;
+    background-color: var(--cam);
+    color: rgba(255, 255, 255, 0.589);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.gicungduoc.active {
+    color: white;
+}
+.gicungduoc {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.gicungduoc:hover {
+    color: white;
+}
+
+.noidung {
+    width: 100%;
+}
+
+img.anh1 {
+    width: 150px;
+    border-radius: 30%;
+    box-shadow: 0 0 0px 10px #ffffff52;
+    margin-bottom: 68px;
+}
+
+li {
+    list-style: none;
+    color: var(--xam2);
+}
+
+.khoi4 .icon i {
+    font-size: 48px;
+    color: var(--xam2);
+    margin-right: 16px;
+}
+
+p.thoigian {
+    color: var(--cam);
+    text-align: right;
+}
+
+p.mota {
+    color: var(--xam2);
+}
+
+.khoi1 .icon i {
+    width: 64px;
+    height: 64px;
+    background-color: var(--xam1);
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-top: 48px;
+    font-size: 21px;
+}
+
+p.mota1 {
+    color: var(--xam2);
+    font-size: 18px;
+    margin-top: 48px;
+}
+
+span.email {
+    color: var(--cam);
+}
+
+span.ten {
+    color: var(--cam);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    --cam: #38b1bd;
+    --xam1: #343a40;
+    --xam2: #868e96;
+    height: 100%;
+    padding-left: 15%;
+}
+
+body.xanh {
+    --cam: green;
+}
+
+body.vang {
+    --cam: rgb(255, 200, 20);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h3.tieude3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--xam1);
+}
+
+h2.tieude2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--xam1);
+}
+
+h4.tieude4 {
+    font-size: 36px;
+    color: var(--xam2);
+    margin: 36px;
+}
+
+h1.tieude1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--xam1);
+}
+
+hr {
+    border: 0.5px solid #aaa;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1140px;
+
+}
+.contact {
+    width: 1140px;
+    
+    justify-content: space-between;
+    font-family: nunito;
+}
+.hop-thoai {
+    
+    height: 200px;
+    text-align: center;
+    font-size: 36px;
+    color: var(--xam2);
+    margin: 36px
+   
+    padding-top: 36px;
+    box-shadow: inset 0 -5px 0 0px #64a19d;
+}
+.chialayer {
+    width: 50%;
+    height: 380px;
+    position: relative;
+    float: left;
+}
+.layer1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    box-shadow: inset 0 0 0px 0px;
+    transition: 0.4s;
+}h4.tieudenho5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 200px;
+    margin-bottom: 16px;
+    margin-left: 64px;
+}
+p.mota5 {
+    font-size: 21px;
+    font-weight: 300;
+    width: 400px;
+    margin-left: 64px;
+}.bonanh {
+    width: 1140px;
+    margin: auto;
+    text-align: left;
+    margin-top: 64px;
+}
+img.anh {
+    width: 100%;
+    
+    margin-bottom: 68px;
+}
+.icon-khoi-6 {
+    margin-top: 2px!important;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.icon {
+    font-size: 16px;
+    color: #38b1bd;
+    border-radius: 50%;
+    background: #2e2e2e;
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    cursor: pointer;
+   
+}.logo {
+    margin-top: 24px;
+    margin-left: 48px;
+}
+
+
+img.anh6 {
+    width: 48px;
+    height: 48px;
+}
